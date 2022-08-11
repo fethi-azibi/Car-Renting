@@ -4,9 +4,11 @@ from multiselectfield import MultiSelectField
 
 from datetime import datetime
 
+
 # Create your models here.
 class Car(models.Model):
     state_choice = (
+        # (display, value)
         ('AL', 'Alabama'),
         ('AK', 'Alaska'),
         ('AZ', 'Arizona'),
