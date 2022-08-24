@@ -1,0 +1,665 @@
+[
+{
+  "model": "pages.team",
+  "pk": 1,
+  "fields": {
+    "first_name": "Fethi",
+    "last_name": "Azibi",
+    "designation": "CEO",
+    "photo": "photos/2022/07/25/IMG_20220618_001430_784.jpg",
+    "facebook_link": "https://www.facebook.com/",
+    "twitter_link": "https://www.twitter.com/",
+    "google_plus_link": "https://www.google.com/",
+    "created_date": "2022-07-25T18:21:11.443Z"
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 1,
+  "fields": {
+    "car_title": "Ferrari 488 GTB",
+    "state": "GA",
+    "city": "Atlanta",
+    "color": "White",
+    "model": "488 GTB",
+    "year": 2017,
+    "condition": "Used",
+    "price": 100000,
+    "description": "<p>The&nbsp;<strong>Ferrari 488</strong>&nbsp;(Type F142M) is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Rear_mid-engine,_rear-wheel_drive_layout\" title=\"Rear mid-engine, rear-wheel drive layout\">mid-engine</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Sports_car\" title=\"Sports car\">sports car</a>&nbsp;produced by the Italian automobile manufacturer&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari\" title=\"Ferrari\">Ferrari</a>. The car replaced the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_458\" title=\"Ferrari 458\">458</a>, being the first mid-engine Ferrari to use a turbocharged V8 since the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_F40\" title=\"Ferrari F40\">F40</a>. It was succeeded by the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_F8\" title=\"Ferrari F8\">Ferrari F8</a></p>",
+    "car_photo": "photos/2022/07/25/1902531.JPG",
+    "car_photo_1": "photos/2022/07/25/1902532.JPG",
+    "car_photo_2": "photos/2022/07/25/1902533.JPG",
+    "car_photo_3": "photos/2022/07/25/1902534.JPG",
+    "car_photo_4": "photos/2022/07/25/1987B11.JPG",
+    "features": "Airbags,Air Conditioning,Seat Heating,Alarm System,ParkAssist",
+    "body_style": "SUV",
+    "engine": "3.9MID engine",
+    "transmission": "Automatic",
+    "interior": "Black",
+    "miles": 20000,
+    "doors": "4",
+    "passengers": 4,
+    "vin_no": "pJK9pmchcfjcnMyD6p",
+    "milage": 7,
+    "fuel_type": "Petrol",
+    "no_of_owners": "1",
+    "is_featured": true,
+    "created_date": "2022-07-25T18:36:27Z"
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 2,
+  "fields": {
+    "car_title": "Ford Edge",
+    "state": "CA",
+    "city": "San Diego",
+    "color": "Black",
+    "model": "Edge",
+    "year": 2019,
+    "condition": "Used",
+    "price": 20000,
+    "description": "<p>The&nbsp;<strong>Ford Edge</strong>&nbsp;is a range of&nbsp;<a href=\"https://en.wikipedia.org/wiki/Crossover_(automobile)\" title=\"Crossover (automobile)\">crossover SUVs</a>&nbsp;manufactured by the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Motor_Company\" title=\"Ford Motor Company\">Ford Motor Company</a>. Introduced for the 2007 model year, the Edge is the first&nbsp;<a href=\"https://en.wikipedia.org/wiki/Mid-size_CUV\" title=\"Mid-size CUV\">mid-size CUV</a>&nbsp;marketed by Ford in North America; the model line is currently in its second generation. Deriving its name from a trim package of the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Ranger_(Americas)\" title=\"Ford Ranger (Americas)\">Ford Ranger</a>, the Ford Edge is positioned between the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Escape\" title=\"Ford Escape\">Ford Escape</a>&nbsp;and the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Explorer\" title=\"Ford Explorer\">Ford Explorer</a>&nbsp;within the Ford product line.</p>",
+    "car_photo": "photos/2022/07/25/1901471.JPG",
+    "car_photo_1": "photos/2022/07/25/1901472.JPG",
+    "car_photo_2": "photos/2022/07/25/1901473.JPG",
+    "car_photo_3": "photos/2022/07/25/1901474.JPG",
+    "car_photo_4": "photos/2022/07/25/19B7781.JPG",
+    "features": "Airbags,Air Conditioning,Seat Heating,Auto Start/Stop,Bluetooth Handset",
+    "body_style": "SUV",
+    "engine": "3.9MID engine V4",
+    "transmission": "Automatic",
+    "interior": "Grey",
+    "miles": 50000,
+    "doors": "4",
+    "passengers": 5,
+    "vin_no": "pJK9pmchcU89MyD6p",
+    "milage": 7,
+    "fuel_type": "Petrol",
+    "no_of_owners": "2",
+    "is_featured": true,
+    "created_date": "2022-07-25T18:42:47Z"
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 3,
+  "fields": {
+    "car_title": "Ford F-250 Super Duty",
+    "state": "NY",
+    "city": "Buffalo",
+    "color": "Black",
+    "model": "F-250 Super Duty",
+    "year": 2021,
+    "condition": "Used",
+    "price": 260000,
+    "description": "<p><strong>Super Duty</strong>&nbsp;never stops moving forward. That&rsquo;s why Ford Super Duty features the available 7.3L OHV gas V8 and the available Power Stroke V8 Turbo Diesel, and offers the latest technology with an available new 12-inch screen featuring the all-new SYNC&reg;&nbsp;4. Impressive Super Duty gas and diesel power ratings combine with rugged frame and chassis engineering to achieve strong numbers in every category of hauling and towing, including best-in-class horsepower, best-in-class GCWR, <u>best-in-class</u> payload and the best 5th-wheel and conventional towing in its class.</p>",
+    "car_photo": "photos/2022/07/25/1894301.JPG",
+    "car_photo_1": "photos/2022/07/25/1894302.JPG",
+    "car_photo_2": "photos/2022/07/25/1894303.JPG",
+    "car_photo_3": "photos/2022/07/25/1900151.JPG",
+    "car_photo_4": "photos/2022/07/25/1900152.JPG",
+    "features": "Cruise Control,Audio Interface,Air Conditioning,Power Steering",
+    "body_style": "SUV",
+    "engine": "3.3MID engine V4",
+    "transmission": "Automatic",
+    "interior": "White",
+    "miles": 10010,
+    "doors": "4",
+    "passengers": 5,
+    "vin_no": "pJK9pmchcfjcnMy1001",
+    "milage": 6,
+    "fuel_type": "gaz",
+    "no_of_owners": "2",
+    "is_featured": false,
+    "created_date": "2022-07-25T19:09:31Z"
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 4,
+  "fields": {
+    "car_title": "Jaguar F-Pace",
+    "state": "MI",
+    "city": "Flint",
+    "color": "Green",
+    "model": "F-Pace",
+    "year": 2022,
+    "condition": "Used",
+    "price": 30000,
+    "description": "<p>The&nbsp;<strong>Jaguar F-Pace</strong>&nbsp;(X761) is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Compact_executive_car\" title=\"Compact executive car\">compact luxury</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Crossover_SUV\" title=\"Crossover SUV\">crossover SUV</a>&nbsp;made by&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jaguar_Land_Rover\" title=\"Jaguar Land Rover\">Jaguar Land Rover</a>, a British&nbsp;<a href=\"https://en.wikipedia.org/wiki/Automaker\" title=\"Automaker\">car manufacturer</a>, under their&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jaguar_Cars\" title=\"Jaguar Cars\">Jaguar marque</a>. It is the first model to be built by Jaguar in the SUV class. It was formally announced at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/North_American_International_Auto_Show#2015\" title=\"\">2015 North American International Auto Show</a>&nbsp;in Detroit, with sales commencing in 2016 following an unveiling at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/International_Motor_Show_Germany#2015\" title=\"International Motor Show Germany\">International Motor Show Germany</a>&nbsp;in Frankfurt in September 2015.<a href=\"https://en.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-4\">[4]</a>&nbsp;The design of the F-Pace is based on the 2013&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jaguar_C-X17\" title=\"Jaguar C-X17\">Jaguar C-X17</a>&nbsp;concept car.<a href=\"https://en.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-BBC_News_120115-5\">[5]</a>&nbsp;The 2017 Jaguar F-PACE has been named the honorary winner of the 2017 World Car of the Year and World Car Design of the Year Awards at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/New_York_International_Auto_Show\" title=\"New York International Auto Show\">New York International Auto Show</a>.<a href=\"https://en.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-6\">[6]</a></p>",
+    "car_photo": "photos/2022/07/25/1902931.JPG",
+    "car_photo_1": "photos/2022/07/25/1902932.JPG",
+    "car_photo_2": "photos/2022/07/25/1902933.JPG",
+    "car_photo_3": "photos/2022/07/25/1902934.JPG",
+    "car_photo_4": "",
+    "features": "Audio Interface,Airbags,Air Conditioning,Seat Heating,Alarm System,Reversing Camera,Wind Deflector",
+    "body_style": "SUV",
+    "engine": "4MID engine V5",
+    "transmission": "Automatic",
+    "interior": "Grey",
+    "miles": 25000,
+    "doors": "2",
+    "passengers": 2,
+    "vin_no": "pJK9pAOP90cU89MyD6p",
+    "milage": 7,
+    "fuel_type": "Petrol",
+    "no_of_owners": "1",
+    "is_featured": true,
+    "created_date": "2022-07-25T19:19:16Z"
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 5,
+  "fields": {
+    "car_title": "Toyota 4Runner",
+    "state": "FL",
+    "city": "Miami",
+    "color": "Greay",
+    "model": "4Runner",
+    "year": 2018,
+    "condition": "Used",
+    "price": 150000,
+    "description": "<p>The&nbsp;<strong>Toyota 4Runner</strong>&nbsp;is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Compact_SUV\" title=\"Compact SUV\">compact</a>, later a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Mid-size_sport_utility_vehicle\" title=\"Mid-size sport utility vehicle\">mid-size sport utility vehicle</a>&nbsp;produced by the Japanese manufacturer&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota\" title=\"Toyota\">Toyota</a>&nbsp;and sold throughout the world from 1984 to the present. In Japan, it is known as the&nbsp;<strong>Toyota Hilux Surf</strong>&nbsp;(<a href=\"https://en.wikipedia.org/wiki/Japanese_language\" title=\"Japanese language\">Japanese</a>:&nbsp;トヨタ・ハイラックスサーフ,&nbsp;<a href=\"https://en.wikipedia.org/wiki/Hepburn_romanization\" title=\"Hepburn romanization\">Hepburn</a>:&nbsp;<em>Toyota Hairakkususāfu</em>)&nbsp;which was withdrawn from the market in 2009. The original 4Runner was a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Compact_SUV\" title=\"Compact SUV\">compact SUV</a>&nbsp;and little more than a Toyota&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota_Hilux\" title=\"Toyota Hilux\">Hilux</a>&nbsp;pickup truck with a fiberglass shell over the bed, but the model has since undergone significant independent development into a cross between a compact and a mid-size SUV. All 4Runners have been built in Japan at Toyota&#39;s&nbsp;<a href=\"https://en.wikipedia.org/wiki/Tahara_plant\" title=\"Tahara plant\">plant</a>&nbsp;in&nbsp;<a href=\"https://en.wikipedia.org/wiki/Tahara,_Aichi\" title=\"Tahara, Aichi\">Tahara, Aichi</a>, or at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Hino_Motors\" title=\"Hino Motors\">Hino Motors</a>&nbsp;(a Toyota subsidiary) plant in&nbsp;<a href=\"https://en.wikipedia.org/wiki/Hamura\" title=\"Hamura\">Hamura</a>.</p>",
+    "car_photo": "photos/2022/07/25/1902931_59uN4cl.JPG",
+    "car_photo_1": "photos/2022/07/25/1902932_OVSRxbt.JPG",
+    "car_photo_2": "photos/2022/07/25/1902933_r5QQReo.JPG",
+    "car_photo_3": "photos/2022/07/25/1902934_XtwKxGp.JPG",
+    "car_photo_4": "",
+    "features": "Airbags,Seat Heating,Alarm System,Power Steering,Wind Deflector,Bluetooth Handset",
+    "body_style": "SUV",
+    "engine": "4MID engine V5",
+    "transmission": "Automatic",
+    "interior": "Grey",
+    "miles": 12000,
+    "doors": "4",
+    "passengers": 5,
+    "vin_no": "p12P09pmchcU89MyD6p",
+    "milage": 8,
+    "fuel_type": "Petrol",
+    "no_of_owners": "3",
+    "is_featured": true,
+    "created_date": "2022-07-25T19:22:54Z"
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 6,
+  "fields": {
+    "car_title": "Toyota Corolla",
+    "state": "NV",
+    "city": "Las Vegas",
+    "color": "White",
+    "model": "Corolla",
+    "year": 2021,
+    "condition": "Used",
+    "price": 15000,
+    "description": "<p>The&nbsp;<strong>Toyota Corolla</strong>&nbsp;(<a href=\"https://en.wikipedia.org/wiki/Japanese_language\" title=\"Japanese language\">Japanese</a>:&nbsp;トヨタ・カローラ,&nbsp;<a href=\"https://en.wikipedia.org/wiki/Hepburn_romanization\" title=\"Hepburn romanization\">Hepburn</a>:&nbsp;<em>Toyota Karōra</em>)&nbsp;is a series of&nbsp;<a href=\"https://en.wikipedia.org/wiki/Compact_car\" title=\"Compact car\">compact cars</a>&nbsp;(formerly&nbsp;<a href=\"https://en.wikipedia.org/wiki/Subcompact_car\" title=\"Subcompact car\">subcompact</a>) manufactured and marketed globally by the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota_Motor_Corporation\" title=\"Toyota Motor Corporation\">Toyota Motor Corporation</a>. Introduced in 1966, the Corolla was the best-selling car worldwide by 1974 and has been one of the best-selling cars in the world since then. In 1997, the Corolla became the&nbsp;<a href=\"https://en.wikipedia.org/wiki/List_of_best-selling_automobiles\" title=\"List of best-selling automobiles\">best-selling nameplate in the world</a>, surpassing the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Volkswagen_Beetle\" title=\"Volkswagen Beetle\">Volkswagen Beetle</a>.<a href=\"https://en.wikipedia.org/wiki/Toyota_Corolla#cite_note-1\">[1]</a>&nbsp;Toyota reached the milestone of 50 million Corollas sold over twelve generations in 2021.<a href=\"https://en.wikipedia.org/wiki/Toyota_Corolla#cite_note-50million-2\">[2]</a></p>",
+    "car_photo": "photos/2022/07/25/1902931_qefVD0o.JPG",
+    "car_photo_1": "photos/2022/07/25/1902932_a3pqbgs.JPG",
+    "car_photo_2": "photos/2022/07/25/1902933_wjFrB9O.JPG",
+    "car_photo_3": "photos/2022/07/25/1902934_HLIJ0Kn.JPG",
+    "car_photo_4": "",
+    "features": "Air Conditioning,ParkAssist,Power Steering,Reversing Camera,Direct Fuel Injection",
+    "body_style": "SUV",
+    "engine": "3.8MID engine",
+    "transmission": "Manual",
+    "interior": "Black",
+    "miles": 20000,
+    "doors": "4",
+    "passengers": 5,
+    "vin_no": "p12P09pmchcU89M20222",
+    "milage": 4,
+    "fuel_type": "gaz",
+    "no_of_owners": "1",
+    "is_featured": true,
+    "created_date": "2022-07-25T19:25:25Z"
+  }
+},
+{
+  "model": "contacts.contact",
+  "pk": 1,
+  "fields": {
+    "first_name": "abdou",
+    "last_name": "Azibi",
+    "customer_need": "I'm interested in this",
+    "car_title": "1",
+    "city": "Fouka",
+    "state": "Tipasa",
+    "email": "azibi@gmail.com",
+    "phone": "0696084401",
+    "message": "Need the car soon",
+    "user_id": 1,
+    "car_id": 2,
+    "create_date": "2022-08-18T19:59:26.966Z"
+  }
+},
+{
+  "model": "contacts.contact",
+  "pk": 2,
+  "fields": {
+    "first_name": "ahmed",
+    "last_name": "sellamo",
+    "customer_need": "I'd like to test drive this",
+    "car_title": "Ford F-250 Super Duty",
+    "city": "Fouka",
+    "state": "Tipasa",
+    "email": "azibi.fethi99@gmail.com",
+    "phone": "0696084401",
+    "message": "Nice car",
+    "user_id": 1,
+    "car_id": 3,
+    "create_date": "2022-08-18T20:05:45.752Z"
+  }
+},
+{
+  "model": "contacts.contact",
+  "pk": 3,
+  "fields": {
+    "first_name": "Fethi",
+    "last_name": "Azibi",
+    "customer_need": "I'm interested in this",
+    "car_title": "Ferrari 488 GTB",
+    "city": "Fouka",
+    "state": "Tipasa",
+    "email": "azibi.fethi99@gmail.com",
+    "phone": "0696084401",
+    "message": "ah",
+    "user_id": 1,
+    "car_id": 1,
+    "create_date": "2022-08-20T15:14:56.082Z"
+  }
+},
+{
+  "model": "contacts.contact",
+  "pk": 4,
+  "fields": {
+    "first_name": "Fethi",
+    "last_name": "Azibi",
+    "customer_need": "I'm interested in this",
+    "car_title": "Toyota Corolla",
+    "city": "Fouka",
+    "state": "Tipasa",
+    "email": "azibi.fethi99@gmail.com",
+    "phone": "0696084401",
+    "message": "hello",
+    "user_id": 1,
+    "car_id": 6,
+    "create_date": "2022-08-20T16:21:34.358Z"
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$320000$jKELOJhr5BWgMe8puD6MiV$EBmNaMkKk+i6S6csV+af3ht4r4UQiPub4N0B5epDLIQ=",
+    "last_login": "2022-08-18T18:37:58Z",
+    "is_superuser": true,
+    "username": "fethi",
+    "first_name": "Fethi",
+    "last_name": "Azibi",
+    "email": "azibi.fethi99@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-07-25T18:19:46Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "fethi",
+    "last_login": "2022-08-14T00:01:25.073Z",
+    "is_superuser": false,
+    "username": "fethi.azibi",
+    "first_name": "Fethi",
+    "last_name": "Azibi",
+    "email": "azibi.fethi909@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-08-14T00:01:25.013Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "!fyZN38G7MkLpuWznfCEoqWaPr2ToLWwcGlssN5Zb",
+    "last_login": "2022-08-17T16:30:02.931Z",
+    "is_superuser": false,
+    "username": "fethi1",
+    "first_name": "Fethi",
+    "last_name": "Fethi",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-08-17T15:02:02.000Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "!nGyhh9Ttv4gHKQ2xN6oL3kRo3SzBJ1sN0kyMpT0K",
+    "last_login": "2022-08-17T15:43:44.502Z",
+    "is_superuser": false,
+    "username": "fethi0",
+    "first_name": "fethi",
+    "last_name": "Az",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-08-17T15:32:37.977Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "7w5opwhojvknnope9g48wqedz84t05vn",
+  "fields": {
+    "session_data": ".eJxVjM0OwiAQhN-FsyH8CejRe5-BLOwiVQNJaU_Gd5cmPehlkplvZt4swLaWsHVawozsyiQ7_WYR0pPqDvAB9d54anVd5sj3Cj9o51NDet2O7t9BgV7GmiAmLbKNIB34bLUYRnlDQ1FdMEN23icDpLUhh1kSKm8hgTgLhZF9vgkmOOc:1oOkP0:XM9hCy_jVBar6uz1xaMmXQv64NyGM7oS78d8jXgtE2Q",
+    "expire_date": "2022-09-01T18:37:58.489Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ah80orpkoo967reommbmjic1e8rvz73q",
+  "fields": {
+    "session_data": "eyJzb2NpYWxhY2NvdW50X3N0YXRlIjpbeyJwcm9jZXNzIjoibG9naW4iLCJzY29wZSI6IiIsImF1dGhfcGFyYW1zIjoiIn0sImF4TElhV29XS2p4ZCJdfQ:1oOLLV:TWu3HCmyG3Qwqy5fSlb4aAoCZwgLxj3gdPE5QNZ9ikg",
+    "expire_date": "2022-08-31T15:52:41.567Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "cy1gd5w1bedk5e5e3e0qjfqwd3bg2aby",
+  "fields": {
+    "session_data": ".eJxVjM0OwiAQhN-FsyH8CejRe5-BLOwiVQNJaU_Gd5cmPehlkplvZt4swLaWsHVawozsyiQ7_WYR0pPqDvAB9d54anVd5sj3Cj9o51NDet2O7t9BgV7GmiAmLbKNIB34bLUYRnlDQ1FdMEN23icDpLUhh1kSKm8hgTgLhZF9vgkmOOc:1oG2ga:pihh69FRlq5BMVutciVjHJqn4hpFqC5hb0gPwR4gGJI",
+    "expire_date": "2022-08-08T18:20:08.934Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "rzvzzm84a1u6b1jc7oor0bimdifqxmpc",
+  "fields": {
+    "session_data": "eyJzb2NpYWxhY2NvdW50X3N0YXRlIjpbeyJwcm9jZXNzIjoibG9naW4iLCJzY29wZSI6IiIsImF1dGhfcGFyYW1zIjoiIn0sImhHM2VaMjFjZTNyUCJdfQ:1oOLAh:QCb7GnNRR7nE-Ob4laGeoQXowOkDHE1y5PyI87o-EtM",
+    "expire_date": "2022-08-31T15:41:31.153Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wwyw3p2mre2iwgpuzroycow5ymo119v7",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSG8WopL934DuQ-QqqFJaVfGf1eSLnQ7M-e8RIR9K3FvaY0zi7Ow4vTLEOiRahd8h3pbJC11W2eUPZGHbfK6cHpejvbvoEArfR289iYY8gZVUpntaHnCREAJwfgcJhUya9KOLGZ2X-KGTN76AcCO4v0B-wg4ng:1oOLve:SXVUCV86TzrvhBL1xNvDpwI251gDrEky2EP2lAgEMzU",
+    "expire_date": "2022-08-31T16:30:02.935Z"
+  }
+},
+{
+  "model": "sites.site",
+  "fields": {
+    "domain": "localhost:8000",
+    "name": "localhost:8000"
+  }
+},
+{
+  "model": "socialaccount.socialapp",
+  "pk": 1,
+  "fields": {
+    "provider": "facebook",
+    "name": "Facebook Login",
+    "client_id": "794440508581312",
+    "secret": "f4fb736f9a4137fb7d8f60707e15bb5a",
+    "key": "",
+    "sites": [
+      [
+        "localhost:8000"
+      ]
+    ]
+  }
+},
+{
+  "model": "socialaccount.socialapp",
+  "pk": 2,
+  "fields": {
+    "provider": "google",
+    "name": "Google Login",
+    "client_id": "1067724233056-945kl3g9h1bgrdmsgq7gj1o5kn9l46vl.apps.googleusercontent.com",
+    "secret": "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",
+    "key": "",
+    "sites": [
+      [
+        "localhost:8000"
+      ]
+    ]
+  }
+},
+{
+  "model": "socialaccount.socialaccount",
+  "pk": 1,
+  "fields": {
+    "user": [
+      "fethi1"
+    ],
+    "provider": "facebook",
+    "uid": "4685530684883265",
+    "last_login": "2022-08-17T16:30:02.911Z",
+    "date_joined": "2022-08-17T15:02:02.037Z",
+    "extra_data": "{\"id\": \"4685530684883265\", \"name\": \"Fethi\", \"first_name\": \"Fethi\", \"last_name\": \"Fethi\"}"
+  }
+},
+{
+  "model": "socialaccount.socialaccount",
+  "pk": 2,
+  "fields": {
+    "user": [
+      "fethi0"
+    ],
+    "provider": "google",
+    "uid": "113777525471197686517",
+    "last_login": "2022-08-17T15:43:44.484Z",
+    "date_joined": "2022-08-17T15:32:38.010Z",
+    "extra_data": "{\"id\": \"113777525471197686517\", \"name\": \"fethi Az\", \"given_name\": \"fethi\", \"family_name\": \"Az\", \"picture\": \"https://lh3.googleusercontent.com/a-/AFdZucpaA_BO9HcoBQU3GGSnn8aCdmfcf1Tlo66qvDRNPQ=s96-c\", \"locale\": \"en\"}"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2022-07-25T18:21:11.446Z",
+    "user": [
+      "fethi"
+    ],
+    "content_type": [
+      "pages",
+      "team"
+    ],
+    "object_id": "1",
+    "object_repr": "Fethi",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2022-07-25T18:37:24.275Z",
+    "user": [
+      "fethi"
+    ],
+    "content_type": [
+      "cars",
+      "car"
+    ],
+    "object_id": "1",
+    "object_repr": "Car object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2022-07-25T18:43:18.253Z",
+    "user": [
+      "fethi"
+    ],
+    "content_type": [
+      "cars",
+      "car"
+    ],
+    "object_id": "2",
+    "object_repr": "Ford Edge",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2022-07-25T19:09:32.939Z",
+    "user": [
+      "fethi"
+    ],
+    "content_type": [
+      "cars",
+      "car"
+    ],
+    "object_id": "3",
+    "object_repr": "Ford F-250 Super Duty",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2022-07-25T19:19:20.144Z",
+    "user": [
+      "fethi"
+    ],
+    "content_type": [
+      "cars",
+      "car"
+    ],
+    "object_id": "4",
+    "object_repr": "Jaguar F-Pace",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2022-07-25T19:22:55.866Z",
+    "user": [
+      "fethi"
+    ],
+    "content_type": [
+      "cars",
+      "car"
+    ],
+    "object_id": "5",
+    "object_repr": "Toyota 4Runner",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2022-07-25T19:25:26.817Z",
+    "user": [
+      "fethi"
+    ],
+    "content_type": [
+      "cars",
+      "car"
+    ],
+    "object_id": "6",
+    "object_repr": "Toyota Corolla",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2022-08-17T14:51:01.810Z",
+    "user": [
+      "fethi"
+    ],
+    "content_type": [
+      "socialaccount",
+      "socialapp"
+    ],
+    "object_id": "1",
+    "object_repr": "Facebook Login",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2022-08-17T14:51:46.805Z",
+    "user": [
+      "fethi"
+    ],
+    "content_type": [
+      "sites",
+      "site"
+    ],
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2022-08-17T15:31:27.631Z",
+    "user": [
+      "fethi"
+    ],
+    "content_type": [
+      "socialaccount",
+      "socialapp"
+    ],
+    "object_id": "2",
+    "object_repr": "Google Login",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2022-08-18T19:21:32.413Z",
+    "user": [
+      "fethi"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "1",
+    "object_repr": "fethi",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+  }
+}
+]

@@ -1,4 +1,7 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+from django.contrib import messages
+from django.core.mail import send_mail
+from django.contrib.auth.models import User
 
 from .models import Team
 from cars.models import Car
@@ -40,4 +43,22 @@ def services(request):
 
 
 def contact(request):
+    if request.method == 'POST':
+        name = request.POST['name']
+        email = request.POST['email']
+        subject = request.POST['subject']
+        phone = request.POST['phone']
+        message = request.POST['message']
+        admin_info = User.objects.get(is_superuser=True)
+        admin_email = admin_info.email
+        send_mail(
+            'New Email from Car Selling: '+subject,
+            'Name: '+name+' Email: '+email+'phone: '+phone+'message: '+message,
+            'abdouazibi484@gmail.com',
+            [admin_email, ],
+            fail_silently=False,
+        )
+        messages.success(request, 'Your request has been successfully submitted, we will contact you soon')
+        return redirect('contact')
+
     return render(request, 'pages/contact.html')
