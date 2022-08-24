@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 
 from pathlib import Path
 import os
+import dj_database_url
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -23,13 +25,15 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-3__$6-^m9(=3#%_%xlyr4u#e+0blkshejsjl#9ervj0&6%((zc'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
 LOGIN_REDIRECT_URL = 'dashboard'
 SOCIALACCOUNT_LOGIN_ON_GET = True
 SITE_ID = 1
+
+DATABSES = {'default': dj_database_url.config(default='postgres://postgres:fathihrbf1999@localhost/dbname')}
 
 # Application definition
 
@@ -54,6 +58,7 @@ INSTALLED_APPS = [
     # Providers
     'allauth.socialaccount.providers.facebook',
     'allauth.socialaccount.providers.google',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 
 ]
 
@@ -162,3 +167,5 @@ EMAIL_USE_TLS = True
 import _locale
 _locale._getdefaultlocale = (lambda *args: ['en_US', 'utf8'])
 
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
